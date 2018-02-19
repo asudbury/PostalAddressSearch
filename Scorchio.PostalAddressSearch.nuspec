@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Scorchio.PostalAddressSearch</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>Adrian Sudbury</authors>
         <owners>Scorchio Limited</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -12,6 +12,6 @@
         </dependencies>
     </metadata>
     <files>
-      <file src="C:\Scorchio\Projects\c#\PostalAddressSearch\PostalAddressSearch\PostalAddressSearch\bin\Debug\Scorchio.PostalAddressSearch.dll" />
+      <file src="C:\Scorchio\Projects\c#\PostalAddressSearch\PostalAddressSearch\bin\Debug\Scorchio.PostalAddressSearch.dll" target="lib" />
     </files>
 </package>
