@@ -12,16 +12,6 @@
     /// <seealso cref="Scorchio.PostalAddressSearch.Services.IPostalAddressService" />
     public class PostalAddressService : IPostalAddressService
     {
-        /// <summary>
-        /// The URL.
-        /// </summary>
-        private const string Url = "https://address-data.co.uk/addresses-in-";
-
-        /// <summary>
-        /// The CSS select command.
-        /// </summary>
-        private const string CssSelectCommand = ".offer-content p";
-
         /// <inheritdoc />
         /// <summary>
         /// Gets the addresses from post code.
@@ -30,6 +20,10 @@
         /// <returns></returns>
         public IEnumerable<AddressModel> GetAddressesFromPostCode(string postCode)
         {
+            const string url = "https://address-data.co.uk/addresses-in-";
+
+            const string cssSelectCommand = ".offer-content p";
+
             postCode = postCode.ToUpper();
 
             string searchPostCode = postCode.Replace(" ", "-");
@@ -37,9 +31,9 @@
             List<AddressModel> addresses = new List<AddressModel>();
 
             HtmlWeb web = new HtmlWeb();
-            HtmlDocument doc = web.Load(Url + searchPostCode);
+            HtmlDocument doc = web.Load(url + searchPostCode);
 
-            var nodes = doc.DocumentNode.CssSelect(CssSelectCommand).ToList();
+            var nodes = doc.DocumentNode.CssSelect(cssSelectCommand).ToList();
 
             foreach (HtmlNode htmlNode in nodes)
             {

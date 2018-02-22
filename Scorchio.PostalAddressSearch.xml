@@ -50,16 +50,6 @@
             </summary>
             <seealso cref="T:Scorchio.PostalAddressSearch.Services.IPostalAddressService" />
         </member>
-        <member name="F:Scorchio.PostalAddressSearch.Services.PostalAddressService.Url">
-            <summary>
-            The URL.
-            </summary>
-        </member>
-        <member name="F:Scorchio.PostalAddressSearch.Services.PostalAddressService.CssSelectCommand">
-            <summary>
-            The CSS select command.
-            </summary>
-        </member>
         <member name="M:Scorchio.PostalAddressSearch.Services.PostalAddressService.GetAddressesFromPostCode(System.String)">
             <inheritdoc />
             <summary>

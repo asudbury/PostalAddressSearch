@@ -9,8 +9,6 @@
   - [GetAddressesFromPostCode(postCode)](#M-Scorchio-PostalAddressSearch-Services-IPostalAddressService-GetAddressesFromPostCode-System-String- 'Scorchio.PostalAddressSearch.Services.IPostalAddressService.GetAddressesFromPostCode(System.String)')
   - [GetAddressesFromPostCodeAndBuildingNumber(postCode,buildingNumber)](#M-Scorchio-PostalAddressSearch-Services-IPostalAddressService-GetAddressesFromPostCodeAndBuildingNumber-System-String,System-String- 'Scorchio.PostalAddressSearch.Services.IPostalAddressService.GetAddressesFromPostCodeAndBuildingNumber(System.String,System.String)')
 - [PostalAddressService](#T-Scorchio-PostalAddressSearch-Services-PostalAddressService 'Scorchio.PostalAddressSearch.Services.PostalAddressService')
-  - [CssSelectCommand](#F-Scorchio-PostalAddressSearch-Services-PostalAddressService-CssSelectCommand 'Scorchio.PostalAddressSearch.Services.PostalAddressService.CssSelectCommand')
-  - [Url](#F-Scorchio-PostalAddressSearch-Services-PostalAddressService-Url 'Scorchio.PostalAddressSearch.Services.PostalAddressService.Url')
   - [GetAddressesFromPostCode(postCode)](#M-Scorchio-PostalAddressSearch-Services-PostalAddressService-GetAddressesFromPostCode-System-String- 'Scorchio.PostalAddressSearch.Services.PostalAddressService.GetAddressesFromPostCode(System.String)')
   - [GetAddressesFromPostCodeAndBuildingNumber(postCode,buildingNumber)](#M-Scorchio-PostalAddressSearch-Services-PostalAddressService-GetAddressesFromPostCodeAndBuildingNumber-System-String,System-String- 'Scorchio.PostalAddressSearch.Services.PostalAddressService.GetAddressesFromPostCodeAndBuildingNumber(System.String,System.String)')
 
@@ -109,20 +107,6 @@ Post Address Service.
 ##### See Also
 
 - [Scorchio.PostalAddressSearch.Services.IPostalAddressService](#T-Scorchio-PostalAddressSearch-Services-IPostalAddressService 'Scorchio.PostalAddressSearch.Services.IPostalAddressService')
-
-<a name='F-Scorchio-PostalAddressSearch-Services-PostalAddressService-CssSelectCommand'></a>
-### CssSelectCommand `constants` [#](#F-Scorchio-PostalAddressSearch-Services-PostalAddressService-CssSelectCommand 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-The CSS select command.
-
-<a name='F-Scorchio-PostalAddressSearch-Services-PostalAddressService-Url'></a>
-### Url `constants` [#](#F-Scorchio-PostalAddressSearch-Services-PostalAddressService-Url 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-The URL.
 
 <a name='M-Scorchio-PostalAddressSearch-Services-PostalAddressService-GetAddressesFromPostCode-System-String-'></a>
 ### GetAddressesFromPostCode(postCode) `method` [#](#M-Scorchio-PostalAddressSearch-Services-PostalAddressService-GetAddressesFromPostCode-System-String- 'Go To Here') [=](#contents 'Back To Contents')
