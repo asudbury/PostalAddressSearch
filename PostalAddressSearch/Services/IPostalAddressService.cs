@@ -3,6 +3,9 @@
     using Models;
     using System.Collections.Generic;
 
+    /// <summary>
+    /// Post Address Service Interface.
+    /// </summary>
     public interface IPostalAddressService
     {
         /// <summary>

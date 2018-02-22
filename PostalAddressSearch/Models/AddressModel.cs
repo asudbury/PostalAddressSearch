@@ -1,5 +1,8 @@
 ﻿namespace Scorchio.PostalAddressSearch.Models
 {
+    /// <summary>
+    /// Address Model
+    /// </summary>
     public class AddressModel 
     {
         /// <summary>

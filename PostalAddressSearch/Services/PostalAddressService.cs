@@ -6,6 +6,10 @@
     using System.Collections.Generic;
     using System.Linq;
 
+    /// <summary>
+    /// Post Address Service.
+    /// </summary>
+    /// <seealso cref="Scorchio.PostalAddressSearch.Services.IPostalAddressService" />
     public class PostalAddressService : IPostalAddressService
     {
         /// <summary>

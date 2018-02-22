@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Scorchio.PostalAddressSearch</name>
+    </assembly>
+    <members>
+        <member name="T:Scorchio.PostalAddressSearch.Models.AddressModel">
+            <summary>
+            Address Model
+            </summary>
+        </member>
+        <member name="P:Scorchio.PostalAddressSearch.Models.AddressModel.BuildingNumber">
+            <summary>
+            Gets or sets the building number.
+            </summary>
+        </member>
+        <member name="P:Scorchio.PostalAddressSearch.Models.AddressModel.PostCode">
+            <summary>
+            Gets or sets the post code.
+            </summary>
+        </member>
+        <member name="P:Scorchio.PostalAddressSearch.Models.AddressModel.Address">
+            <summary>
+            Gets or sets the full address.
+            </summary>
+        </member>
+        <member name="T:Scorchio.PostalAddressSearch.Services.IPostalAddressService">
+            <summary>
+            Post Address Service Interface.
+            </summary>
+        </member>
+        <member name="M:Scorchio.PostalAddressSearch.Services.IPostalAddressService.GetAddressesFromPostCode(System.String)">
+            <summary>
+            Gets the addresses from post code.
+            </summary>
+            <param name="postCode">The post code.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.PostalAddressSearch.Services.IPostalAddressService.GetAddressesFromPostCodeAndBuildingNumber(System.String,System.String)">
+            <summary>
+            Gets the addresses from post code and building number.
+            </summary>
+            <param name="postCode">The post code.</param>
+            <param name="buildingNumber">The building number.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Scorchio.PostalAddressSearch.Services.PostalAddressService">
+            <summary>
+            Post Address Service.
+            </summary>
+            <seealso cref="T:Scorchio.PostalAddressSearch.Services.IPostalAddressService" />
+        </member>
+        <member name="F:Scorchio.PostalAddressSearch.Services.PostalAddressService.Url">
+            <summary>
+            The URL.
+            </summary>
+        </member>
+        <member name="F:Scorchio.PostalAddressSearch.Services.PostalAddressService.CssSelectCommand">
+            <summary>
+            The CSS select command.
+            </summary>
+        </member>
+        <member name="M:Scorchio.PostalAddressSearch.Services.PostalAddressService.GetAddressesFromPostCode(System.String)">
+            <inheritdoc />
+            <summary>
+            Gets the addresses from post code.
+            </summary>
+            <param name="postCode">The post code.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Scorchio.PostalAddressSearch.Services.PostalAddressService.GetAddressesFromPostCodeAndBuildingNumber(System.String,System.String)">
+            <inheritdoc />
+            <summary>
+            Gets the addresses from post code and building number.
+            </summary>
+            <param name="postCode">The post code.</param>
+            <param name="buildingNumber">The building number.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
