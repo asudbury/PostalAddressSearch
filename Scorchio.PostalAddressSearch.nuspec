@@ -2,16 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Scorchio.PostalAddressSearch</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
+        <title>Scorchio Postal Address Search</title>
         <authors>Adrian Sudbury</authors>
         <owners>Scorchio Limited</owners>
+        <projectUrl>https://github.com/asudbury/PostalAddressSearch</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>UK Postal Address Search Service.</description>
+        <language>en-GB</language>
         <dependencies>
             <dependency id="ScrapySharp" version="2.6.2" />
         </dependencies>
     </metadata>
     <files>
-      <file src="C:\Scorchio\Projects\c#\PostalAddressSearch\PostalAddressSearch\bin\Debug\Scorchio.PostalAddressSearch.dll" target="lib" />
+        <file src="PostalAddressSearch\bin\Debug\Scorchio.PostalAddressSearch.dll" target="lib\Scorchio.PostalAddressSearch.dll" />
     </files>
 </package>
