@@ -10,7 +10,7 @@
 	<img src='https://ci.appveyor.com/api/projects/status/5563pl7h01w93v3h?svg=true'/>
 </a>
 
-[AppVeyor Build Status](https://ci.appveyor.com/project/asudbury/extensionmethods)
+[AppVeyor Build Status](https://ci.appveyor.com/project/asudbury/PostalAddressSearch)
 
 [![nuget](https://img.shields.io/nuget/v/Scorchio.PostalAddressSearch.svg)](https://www.nuget.org/packages/Scorchio.PostalAddressSearch/)
 
