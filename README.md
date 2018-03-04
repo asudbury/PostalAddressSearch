@@ -6,7 +6,7 @@
 
 [Team City Build Status](http://vm-scorchio.westeurope.cloudapp.azure.com:888/viewType.html?buildTypeId=PostalAddressSearch_Build&guest=1)
 
-<a href="https://ci.appveyor.com/project/asudbury/extensionmethods">
+<a href="https://ci.appveyor.com/project/asudbury/PostalAddressSearch">
 	<img src='https://ci.appveyor.com/api/projects/status/5563pl7h01w93v3h?svg=true'/>
 </a>
 
