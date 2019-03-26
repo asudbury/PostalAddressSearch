@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td align="center"><a href="https://www.nuget.org/packages/Scorchio.PostalAddressSearch">Nuget Package</a></td>
-        <td align="center"><a href="https://www.nuget.org/packages/Scorchio.PostalAddressSearch"><img src="https://img.shields.io/nuget/v/Scorchio.PostalAddressSearc.svg"></img></a></td>
+        <td align="center"><a href="https://www.nuget.org/packages/Scorchio.PostalAddressSearch"><img src="https://img.shields.io/nuget/v/Scorchio.PostalAddressSearch.svg"></img></a></td>
 </table>
 
 [Application Programming Interface](Scorchio.PostalAddressSearch.md)
